@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_1" type="id" />
+    <item name="title_text" type="id" />
+    <item name="text_2" type="id" />
+    <item name="favorite" type="id" />
+    <item name="noun_synonym_text7" type="id" />
+    <item name="exclamation_label" type="id" />
+    <item name="noun_label" type="id" />
+    <item name="noun_synonym_text8" type="id" />
+    <item name="exclamation_example" type="id" />
+    <item name="verb_label" type="id" />
+    <item name="exclamation_definition" type="id" />
+    <item name="noun_definition" type="id" />
+    <item name="verb_definition" type="id" />
+    <item name="noun_synonym" type="id" />
+    <item name="noun_example" type="id" />
+    <item name="verb_example" type="id" />
+    <item name="noun_synonym_text" type="id" />
+    <item name="noun_synonym_text2" type="id" />
+    <item name="noun_synonym_text3" type="id" />
+    <item name="noun_synonym_text4" type="id" />
+    <item name="noun_synonym_text5" type="id" />
+    <item name="noun_synonym_text6" type="id" />
+</resources>

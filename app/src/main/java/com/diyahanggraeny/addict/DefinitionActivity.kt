@@ -48,7 +48,7 @@ class DefinitionActivity : AppCompatActivity() {
 
                     title_text.text = title
                     text_1.text = phonetics_text
-                    noun_definition.text = meaning_definition_exclamation
+                    // noun_definition.text = meaning_definition_exclamation
 
                     // play sound
                     val sound = "https://" + phonetics_audio

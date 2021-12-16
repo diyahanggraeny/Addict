@@ -43,7 +43,7 @@ class DefinitionActivity : AppCompatActivity() {
             setHomeAsUpIndicator(R.drawable.arrow_back)
         }
 
-        // get data from intent search page
+        // get data from intent page
         val intent = intent
         val word = intent.getStringExtra("Word")
 

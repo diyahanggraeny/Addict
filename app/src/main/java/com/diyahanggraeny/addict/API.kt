@@ -11,4 +11,7 @@ interface API {
     fun getPosts(
         @Path(value="word", encoded = false) key: String,
     ): Call<List<APIResponseItem>>
+
+    @GET("word?number=1&swear=0")
+    fun getRandom():Call<ArrayList<String>>
 }

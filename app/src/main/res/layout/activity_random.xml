@@ -78,6 +78,7 @@
         android:layout_marginEnd="24dp"
         android:text="Find Meaning"
         android:textColor="@color/red_400"
+        android:visibility="gone"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

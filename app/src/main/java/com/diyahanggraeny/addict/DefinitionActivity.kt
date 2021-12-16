@@ -1,5 +1,6 @@
 package com.diyahanggraeny.addict
 
+import android.app.ProgressDialog
 import android.media.AudioManager
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +8,10 @@ import android.os.Bundle
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.diyahanggraeny.addict.Adapters.MeaningAdapter
 import com.diyahanggraeny.addict.Models.APIResponseItem
+import com.diyahanggraeny.addict.Models.Meaning
 import kotlinx.android.synthetic.main.activity_definition.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -16,11 +20,15 @@ import java.io.IOException
 
 class DefinitionActivity : AppCompatActivity() {
 
-    private val list = ArrayList<APIResponseItem>()
+    private val list = ArrayList<Meaning>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_definition)
+
+        // meaning recyclerview
+        meaning_recycler.setHasFixedSize(true)
+        meaning_recycler.layoutManager = LinearLayoutManager(this)
 
         // tambah back button
         setSupportActionBar(findViewById(R.id.toolbar))
@@ -36,6 +44,11 @@ class DefinitionActivity : AppCompatActivity() {
 
         // retrofit
         if (word != null) {
+            // progress bar
+            val progressDialog = ProgressDialog(this@DefinitionActivity)
+            progressDialog.setMessage("Fetching response, please wait")
+            progressDialog.show()
+
             RetrofitClient.instance.getPosts(word).enqueue(object : Callback<List<APIResponseItem>>{
                 override fun onResponse(
                     call: Call<List<APIResponseItem>>,
@@ -49,6 +62,12 @@ class DefinitionActivity : AppCompatActivity() {
                     title_text.text = title
                     text_1.text = phonetics_text
                     // noun_definition.text = meaning_definition_exclamation
+
+                    response.body()?.get(0)?.meanings?.let{list.addAll(it)}
+                    val adapter = MeaningAdapter(list)
+                    meaning_recycler.adapter = adapter
+
+                    progressDialog.dismiss()
 
                     // play sound
                     val sound = "https://" + phonetics_audio

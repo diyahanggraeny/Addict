@@ -9,10 +9,15 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.diyahanggraeny.addict.Adapters.DefinitionAdapter
 import com.diyahanggraeny.addict.Adapters.MeaningAdapter
 import com.diyahanggraeny.addict.Models.APIResponseItem
+import com.diyahanggraeny.addict.Models.Definition
 import com.diyahanggraeny.addict.Models.Meaning
 import kotlinx.android.synthetic.main.activity_definition.*
+import kotlinx.android.synthetic.main.activity_definition.meaning_recycler
+import kotlinx.android.synthetic.main.meaning_items.*
+import kotlinx.android.synthetic.main.meaning_items.view.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,7 +31,7 @@ class DefinitionActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_definition)
 
-        // meaning recyclerview
+        // recyclerview
         meaning_recycler.setHasFixedSize(true)
         meaning_recycler.layoutManager = LinearLayoutManager(this)
 
@@ -57,12 +62,11 @@ class DefinitionActivity : AppCompatActivity() {
                     val title = response.body()?.get(0)?.word
                     val phonetics_text = response.body()?.get(0)?.phonetics?.get(0)?.text
                     val phonetics_audio = response.body()?.get(0)?.phonetics?.get(0)?.audio
-                    val meaning_definition_exclamation = response.body()?.get(0)?.meanings?.get(0)?.definitions?.get(0)?.definition
 
                     title_text.text = title
                     text_1.text = phonetics_text
-                    // noun_definition.text = meaning_definition_exclamation
 
+                    // list meaning
                     response.body()?.get(0)?.meanings?.let{list.addAll(it)}
                     val adapter = MeaningAdapter(list)
                     meaning_recycler.adapter = adapter

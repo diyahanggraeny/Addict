@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:elevation="6dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginLeft="6dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
 
         <TextView
             android:id="@+id/definition_label"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
             android:fontFamily="@font/open_sans"
             android:text="Definition :"
-            android:textColor="@color/dark_grey"
+            android:textColor="@color/black"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:fontFamily="@font/open_sans"
-            android:text="An utterance of “hello”; a greeting."
+            android:text=""
             android:textColor="@color/dark_grey"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +47,7 @@
             android:layout_marginTop="4dp"
             android:fontFamily="@font/open_sans"
             android:text="Synonyms :"
-            android:textColor="@color/dark_grey"
+            android:textColor="@color/black"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -56,7 +61,7 @@
             android:layout_marginTop="4dp"
             android:fontFamily="@font/open_sans"
             android:text="Example :"
-            android:textColor="@color/dark_grey"
+            android:textColor="@color/black"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -64,14 +69,14 @@
             app:layout_constraintTop_toBottomOf="@+id/meaning_definition" />
 
         <TextView
+            android:id="@+id/example_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:id="@+id/example_text"
             android:fontFamily="@font/open_sans"
             android:textColor="@color/dark_grey"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/meaning_example"/>
+            app:layout_constraintTop_toBottomOf="@id/meaning_example" />
 
         <TextView
             android:id="@+id/synonym_example"
@@ -92,7 +97,7 @@
             android:layout_marginTop="4dp"
             android:fontFamily="@font/open_sans"
             android:text="Antonyms :"
-            android:textColor="@color/dark_grey"
+            android:textColor="@color/black"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -100,14 +105,14 @@
             app:layout_constraintTop_toBottomOf="@+id/synonym_example" />
 
         <TextView
+            android:id="@+id/antonym_example"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:id="@+id/antonym_example"
             android:fontFamily="@font/open_sans"
             android:textColor="@color/dark_grey"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@id/meaning_antonym"/>
+            app:layout_constraintTop_toBottomOf="@id/meaning_antonym" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

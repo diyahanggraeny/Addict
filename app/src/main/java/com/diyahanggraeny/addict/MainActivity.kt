@@ -24,5 +24,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        // buka page favorites
+        val save_button = findViewById<Button>(R.id.save_button)
+        save_button.setOnClickListener{
+            val intent = Intent(this, FavoriteActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

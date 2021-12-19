@@ -6,11 +6,12 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.diyahanggraeny.addict.R
+import com.diyahanggraeny.addict.room.Favorite
 import kotlinx.android.synthetic.main.favorite_items.view.*
 
-class FavoriteAdapter : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
+class FavoriteAdapter (private val favorites: ArrayList<Favorite>) : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
 
-    private var words = arrayOf("addict","love","let")
+    // private var words = arrayOf("addict","love","let")
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.favorite_items,parent,false)
@@ -18,25 +19,17 @@ class FavoriteAdapter : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.itemView.word_text.text = words[position]
+        val favorite = favorites[position]
+        holder.view.word_text.text = favorite.word
     }
 
-    override fun getItemCount(): Int {
-        return words.size
-    }
+    override fun getItemCount() = favorites.size
 
-    inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        var itemWord: TextView
+   class ViewHolder(val view: View):RecyclerView.ViewHolder(view)
 
-        init {
-            itemWord = itemView.findViewById(R.id.word_text)
-        }
-    }
-
-    /*
     fun setData(list: List<Favorite>){
         favorites.clear()
         favorites.addAll(list)
         notifyDataSetChanged()
-    } */
+    }
 }

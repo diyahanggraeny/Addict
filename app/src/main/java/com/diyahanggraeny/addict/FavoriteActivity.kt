@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
@@ -39,14 +40,16 @@ class FavoriteActivity : AppCompatActivity() {
         //inisialisasi Database
         db = Room.databaseBuilder(applicationContext, FavoriteDatabase::class.java, "favlist-db").build()
 
+        loadData()
+    }
+
+    fun loadData(){
         GlobalScope.launch {
             val favorites: List<Favorite> = db.favoriteDao().getAllFavorites()
             withContext(Dispatchers.Main) {
                 favoriteAdapter.setData(favorites)
             }
         }
-
-
     }
 
     // back button to previous page
@@ -56,7 +59,16 @@ class FavoriteActivity : AppCompatActivity() {
     }
 
     private fun setupRecyclerView(){
-        favoriteAdapter = FavoriteAdapter(arrayListOf())
+        favoriteAdapter = FavoriteAdapter(arrayListOf(), object : FavoriteAdapter.OnAdapterListener{
+            override fun onDelete(favorite: Favorite) {
+                GlobalScope.launch {
+                    db.favoriteDao().delete(favorite)
+                    loadData()
+                }
+                Toast.makeText(this@FavoriteActivity, "Removed from favorite list", Toast.LENGTH_SHORT).show()
+            }
+
+        })
         favorite_recycler.apply {
             layoutManager = LinearLayoutManager(applicationContext)
             adapter = favoriteAdapter

@@ -9,7 +9,8 @@ import com.diyahanggraeny.addict.R
 import com.diyahanggraeny.addict.room.Favorite
 import kotlinx.android.synthetic.main.favorite_items.view.*
 
-class FavoriteAdapter (private val favorites: ArrayList<Favorite>) : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
+class FavoriteAdapter (private val favorites: ArrayList<Favorite>, private val listener: OnAdapterListener)
+    : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
 
     // private var words = arrayOf("addict","love","let")
 
@@ -21,15 +22,22 @@ class FavoriteAdapter (private val favorites: ArrayList<Favorite>) : RecyclerVie
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val favorite = favorites[position]
         holder.view.word_text.text = favorite.word
+        holder.view.delete_button.setOnClickListener{
+            listener.onDelete(favorite)
+        }
     }
 
     override fun getItemCount() = favorites.size
 
-   class ViewHolder(val view: View):RecyclerView.ViewHolder(view)
+    class ViewHolder(val view: View):RecyclerView.ViewHolder(view)
 
     fun setData(list: List<Favorite>){
         favorites.clear()
         favorites.addAll(list)
         notifyDataSetChanged()
+    }
+
+    interface OnAdapterListener {
+        fun onDelete(favorite: Favorite)
     }
 }

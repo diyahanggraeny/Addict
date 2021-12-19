@@ -12,8 +12,6 @@ import kotlinx.android.synthetic.main.favorite_items.view.*
 class FavoriteAdapter (private val favorites: ArrayList<Favorite>, private val listener: OnAdapterListener)
     : RecyclerView.Adapter<FavoriteAdapter.ViewHolder>() {
 
-    // private var words = arrayOf("addict","love","let")
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.favorite_items,parent,false)
         return ViewHolder(v)
@@ -24,6 +22,9 @@ class FavoriteAdapter (private val favorites: ArrayList<Favorite>, private val l
         holder.view.word_text.text = favorite.word
         holder.view.delete_button.setOnClickListener{
             listener.onDelete(favorite)
+        }
+        holder.view.word_text.setOnClickListener {
+            listener.onClick(favorite)
         }
     }
 
@@ -39,5 +40,6 @@ class FavoriteAdapter (private val favorites: ArrayList<Favorite>, private val l
 
     interface OnAdapterListener {
         fun onDelete(favorite: Favorite)
+        fun onClick(favorite: Favorite)
     }
 }

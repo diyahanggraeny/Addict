@@ -1,5 +1,6 @@
 package com.diyahanggraeny.addict
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -66,6 +67,12 @@ class FavoriteActivity : AppCompatActivity() {
                     loadData()
                 }
                 Toast.makeText(this@FavoriteActivity, "Removed from favorite list", Toast.LENGTH_SHORT).show()
+            }
+
+            override fun onClick(favorite: Favorite) {
+                val intent = Intent(this@FavoriteActivity, DefinitionActivity::class.java)
+                intent.putExtra("Word", favorite.word)
+                startActivity(intent)
             }
 
         })

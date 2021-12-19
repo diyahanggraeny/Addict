@@ -1,23 +1,25 @@
 package com.diyahanggraeny.addict
 
 import android.app.ProgressDialog
+import android.content.Intent
 import android.media.AudioManager
 import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.diyahanggraeny.addict.Adapters.DefinitionAdapter
+import androidx.room.Room
 import com.diyahanggraeny.addict.Adapters.MeaningAdapter
 import com.diyahanggraeny.addict.Models.APIResponseItem
-import com.diyahanggraeny.addict.Models.Definition
 import com.diyahanggraeny.addict.Models.Meaning
+import com.diyahanggraeny.addict.room.Favorite
+import com.diyahanggraeny.addict.room.FavoriteDatabase
 import kotlinx.android.synthetic.main.activity_definition.*
 import kotlinx.android.synthetic.main.activity_definition.meaning_recycler
 import kotlinx.android.synthetic.main.meaning_items.*
 import kotlinx.android.synthetic.main.meaning_items.view.*
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -26,6 +28,7 @@ import java.io.IOException
 class DefinitionActivity : AppCompatActivity() {
 
     private val list = ArrayList<Meaning>()
+    lateinit var db: FavoriteDatabase
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -72,6 +75,19 @@ class DefinitionActivity : AppCompatActivity() {
                     meaning_recycler.adapter = adapter
 
                     progressDialog.dismiss()
+
+                    //inisialisasi Database
+                    db = Room.databaseBuilder(applicationContext, FavoriteDatabase::class.java, "favlist-db").build()
+
+                    //insert data
+                    favorite_button.setOnClickListener{
+                        GlobalScope.launch {
+                            val fav = Favorite(word)
+                            //insert data ke database
+                            db.favoriteDao().insert(fav)
+                        }
+                        Toast.makeText(this@DefinitionActivity, "Added to favorite list", Toast.LENGTH_SHORT).show()
+                    }
 
                     // play sound
                     val sound = "https://" + phonetics_audio

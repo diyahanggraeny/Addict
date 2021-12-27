@@ -17,7 +17,7 @@ https://play.google.com/store/apps/details?id=com.diyahanggraeny.addict
   
   Testing date : 26 Desember 2021
   
-  [Link Record](https://youtu.be/yKyFMMBmcuU) | [Subtitle]()
+  [Link Record](https://youtu.be/yKyFMMBmcuU) | [Subtitle](https://github.com/diyahanggraeny/Addict/blob/master/subtitles/video%20recording%20mia.srt)
   
   
  - #### Novita Anindia Putri
@@ -25,7 +25,7 @@ https://play.google.com/store/apps/details?id=com.diyahanggraeny.addict
   
     Testing date : 26 Desember 2021
   
-    [Link Record](https://youtu.be/wIpgTOdydSU) | [Subtitle]()
+    [Link Record](https://youtu.be/wIpgTOdydSU) | [Subtitle](https://github.com/diyahanggraeny/Addict/blob/master/subtitles/video%20recording%20novita.srt)
   
   
  - #### Alliya Azmi
@@ -34,7 +34,7 @@ https://play.google.com/store/apps/details?id=com.diyahanggraeny.addict
   
     Testing date : 25 Desember 2021
   
-    [Link Record](https://youtu.be/K9ldP5oqFVs) | [Subtitle]()
+    [Link Record](https://youtu.be/K9ldP5oqFVs) | [Subtitle](https://github.com/diyahanggraeny/Addict/blob/master/subtitles/video%20recording%20alliya.srt)
 
 
 

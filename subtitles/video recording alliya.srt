@@ -1,0 +1,768 @@
+1
+00:00:05,000 --> 00:00:06,000
+Assalamualaikum Warahmatullahi Wabarakatuh
+
+2
+00:00:08,000 --> 00:00:10,000
+Waalaikumsalam Warahmatullahi Wabarakatuh
+
+3
+00:00:11,000 --> 00:00:16,000
+Perkenalkan nama saya Diyah Anggraeny dari Universitas Negeri Jakarta jurusan ilmu komputer
+
+4
+00:00:18,000 --> 00:00:21,000
+Maksud dan tujuan kegiatan hari ini itu
+
+5
+00:00:23,000 --> 00:00:34,000
+Saya ingin melakukan user testing terhadap aplikasi yang sudah saya buat sebagai project akhir dari mata kuliah mobile computing
+
+6
+00:00:36,000 --> 00:00:38,000
+Nah, untuk kegiatan hari ini 
+
+7
+00:00:39,000 --> 00:00:41,000
+Yang akan dilakukan itu ada dua, yang pertama itu
+
+8
+00:00:42,000 --> 00:00:48,000
+Saya ingin melakukan sesi tanya jawab kepada narasumber dan 
+
+9
+00:00:49,000 --> 00:00:53,000
+Selanjutnya dilanjutkan dengan user testing
+
+10
+00:00:55,000 --> 00:01:04,000
+Sebelumnya ada disclaimer kalau jawaban disini itu tidak ada yg benar dan salah jadi
+
+11
+00:01:05,000 --> 00:01:12,000
+Kak Alliya boleh mengungkapkan apa saja yang menurut Kak Alliya bisa membangun aplikasi ini
+
+12
+00:01:13,000 --> 00:01:16,000
+Oke, langsung aja, habis ini 
+
+13
+00:01:19,000 --> 00:01:21,000
+Kita langsung ke sesi tanya jawab
+
+14
+00:01:22,000 --> 00:01:28,000
+Boleh Kak Alliya perkenalkan diri, nama, usia, dan domisili
+
+15
+00:01:38,000 --> 00:01:45,000
+Oke, nama saya Alliya, usianya 21 tahun, domisilinya di Tangerang
+
+16
+00:01:47,000 --> 00:01:56,000
+Langsung aja, sebelumnya apakah Kak Alliya pernah melakukan pembelajaran bahasa Inggris?
+
+17
+00:01:57,000 --> 00:01:58,000
+Pernah
+
+18
+00:01:59,000 --> 00:02:00,000
+Alasannya?
+
+19
+00:02:02,000 --> 00:02:08,000
+Untuk meningkatkan kompetensi di bahasa Inggris
+
+20
+00:02:09,000 --> 00:02:13,000
+Untuk medianya apa saja yang pernah digunakan? Kaya misalkan
+
+21
+00:02:15,000 --> 00:02:19,000
+aplikasi, atau buku, video youtube gitu?
+
+22
+00:02:20,000 --> 00:02:26,000
+Iya pernah, pakai aplikasi, pernah pakai buku, pernah pakai video dari youtube
+
+23
+00:02:28,000 --> 00:02:34,000
+Kalau untuk aplikasinya itu, nama aplikasinya apa ya?
+
+24
+00:02:36,000 --> 00:02:40,000
+Pernah, pernah pake
+
+25
+00:02:41,000 --> 00:02:46,000
+Kalau kamus itu biasanya pake U-Dictionary atau Kamusku
+
+26
+00:02:48,000 --> 00:02:51,000
+Terus juga pake Oxford Dictionary sih 
+
+27
+00:02:57,000 --> 00:03:00,000
+Ada alasannya nggak kenapa pakai aplikasi itu?
+
+28
+00:03:01,000 --> 00:03:07,000
+Kalau yang dari Inggris ke Indonesia ya karena mau tau arti di bahasa Indonesianya itu apa
+
+29
+00:03:07,000 --> 00:03:16,000
+Kalau yang dari Inggris ke Inggris tuh pengen tau makna asli dari satu kata itu gitu
+
+30
+00:03:17,000 --> 00:03:22,000
+Oh berarti suka baca yang berbahasa Inggris juga ya Kak?
+
+31
+00:03:23,000 --> 00:03:25,000
+Iya
+
+32
+00:03:30,000 --> 00:03:34,000
+Kalau gitu itu aja sih kalau untuk sesi tanya jawab
+
+33
+00:03:35,000 --> 00:03:36,000
+Oke
+
+34
+00:03:37,000 --> 00:03:39,000
+Ya, selanjutnya
+
+35
+00:03:41,000 --> 00:03:46,000
+Aku mau jelasin dulu tentang aplikasi yang udah aku buat ini
+
+36
+00:03:47,000 --> 00:03:50,000
+Jadi, aplikasi ini namanya Addict
+
+37
+00:03:51,000 --> 00:03:58,000
+Addict ini aplikasi kamus bahasa Inggris ke bahasa Inggris yang menggunakan OS Android
+
+38
+00:03:59,000 --> 00:04:04,000
+Jadi, aplikasi ini sama semacem kaya Oxford Dictionary
+
+39
+00:04:04,000 --> 00:04:10,000
+Nah, di dalam aplikasi ini tuh fiturnya bukan cuma cari kata aja
+
+40
+00:04:11,000 --> 00:04:15,000
+Tapi bisa kaya tambahin kata ke favorite list
+
+41
+00:04:16,000 --> 00:04:18,000
+Trus bisa dengerin pronunciationnya
+
+42
+00:04:19,000 --> 00:04:21,000
+Dan juga ada fitur random juga nih 
+
+43
+00:04:22,000 --> 00:04:27,000
+Nah, di fitur random ini kita bisa nemuin kata-kata secara random
+
+44
+00:04:28,000 --> 00:04:32,000
+Nanti kita bisa cari artinya juga
+
+45
+00:04:33,000 --> 00:04:36,000
+Jadi, aplikasi ini bisa juga buat belajar bahasa Inggris
+
+46
+00:04:37,000 --> 00:04:40,000
+Oke, selanjutnya 
+
+48
+00:04:43,000 --> 00:04:46,000
+Langsung aja nih kita cobain aplikasinya ya Kak
+
+49
+00:04:47,000 --> 00:04:48,000
+Oke
+
+50
+00:04:48,000 --> 00:04:50,000
+Ini aku kirim linknya lewat chat, sebentar
+
+51
+00:04:56,000 --> 00:04:58,000
+Udah saya kirim ya kak linknya di chat
+
+52
+00:04:59,000 --> 00:05:01,000
+Oke, sebentar saya download dulu ya
+
+53
+00:05:02,000 --> 00:05:03,000
+Oke
+
+54
+00:07:10,000 --> 00:07:11,000
+Gimana Kak? udah?
+
+55
+00:07:11,000 --> 00:07:12,000
+Udah di download
+
+56
+00:07:12,000 --> 00:07:13,000
+Oke
+
+57
+00:07:18,000 --> 00:07:21,000
+Selanjutnya, jadi
+
+58
+00:07:22,000 --> 00:07:26,000
+Kakaknya udah coba buka aplikasinya belum?
+
+59
+00:07:26,000 --> 00:07:27,000
+Ini lagi buka
+
+60
+00:07:27,000 --> 00:07:28,000
+Oke
+
+61
+00:07:30,000 --> 00:07:32,000
+Kalau udah di halaman home
+
+62
+00:07:55,000 --> 00:07:58,000
+Udah kebuka halaman home belum kak?
+
+63
+00:07:58,000 --> 00:07:59,000
+Udah
+
+64
+00:07:59,000 --> 00:08:00,000
+Oke
+
+65
+00:08:03,000 --> 00:08:05,000
+Kalau gitu di halaman home ini ada 3 tombol ya?
+
+66
+00:08:08,000 --> 00:08:12,000
+Nah jadi aku bakal, gimana ya?
+
+67
+00:08:13,000 --> 00:08:17,000
+Nunjukin satu-satu nih sekalian Kakaknya nyoba, bisa
+
+68
+00:08:19,000 --> 00:08:21,000
+Ada, jadi yang pertama ini 
+
+69
+00:08:22,000 --> 00:08:25,000
+Mau mencoba searching kata
+
+70
+00:08:26,000 --> 00:08:30,000
+Boleh Kakaknya ke tombol dictionary
+
+71
+00:08:31,000 --> 00:08:36,000
+Coba Kakak cari kata terserah apa aja dalam bahasa Inggris
+
+72
+00:08:38,000 --> 00:08:40,000
+Nanti kalau udah sampai ketemu hasilnya,
+
+73
+00:08:43,000 --> 00:08:46,000
+Boleh distop
+
+74
+00:08:50,000 --> 00:08:51,000
+Udah ketemu hasilnya
+
+75
+00:08:55,000 --> 00:08:57,000
+Boleh juga sih dicoba-coba sampai berapa kali gitu
+
+76
+00:08:58,000 --> 00:08:59,000
+Oh oke
+
+77
+00:09:04,000 --> 00:09:05,000
+Oke
+
+78
+00:09:15,000 --> 00:09:20,000
+Gimana kak udah dicoba-coba cari kata?
+
+79
+00:09:22,000 --> 00:09:23,000
+Udah
+
+80
+00:09:23,000 --> 00:09:30,000
+Oke, kalau gitu sampai disini ada kendala nggak dalam pemakaian?
+
+81
+00:09:33,000 --> 00:09:34,000
+Belum ada sih
+
+82
+00:09:34,000 --> 00:09:43,000
+Oke, terus kalau informasinya gimana menurut Kakak sudah sesuai kebutuhan atau belum?
+
+83
+00:09:44,000 --> 00:09:46,000
+Udah, udah ada definisinya
+
+84
+00:09:47,000 --> 00:09:50,000
+Ada contoh penggunaannya dalam kalimat
+
+85
+00:09:51,000 --> 00:09:53,000
+Trus ada sinonim sama antonimnya
+
+86
+00:09:54,000 --> 00:09:55,000
+Oke
+
+87
+00:09:56,000 --> 00:10:00,000
+Kalau gitu kita lanjut aja ke
+
+88
+00:10:01,000 --> 00:10:05,000
+Disitu kan ada tombol kaya hati gitu ya Kak?
+
+89
+00:10:07,000 --> 00:10:10,000
+Nah, abis ini boleh Kakak coba
+
+90
+00:10:12,000 --> 00:10:16,000
+Tambahin, itu masuknya ke favorite list
+
+91
+00:10:17,000 --> 00:10:18,000
+Oke
+
+92
+00:10:19,000 --> 00:10:23,000
+Iya, nah nanti Kakak boleh coba dulu itu, klik situ
+
+93
+00:10:24,000 --> 00:10:28,000
+Trus, di pojok kanan itu, pojok kanan atas ada icon favorite list
+
+94
+00:10:29,000 --> 00:10:31,000
+Nah, disitu itu tempat
+
+95
+00:10:32,000 --> 00:10:33,000
+Kalau Kakak nambahin kata-kata
+
+96
+00:10:34,000 --> 00:10:36,000
+Kata-katanya itu nanti dia masuk ke sana
+
+97
+00:10:36,000 --> 00:10:38,000
+Boleh dicoba dulu
+
+98
+00:10:39,000 --> 00:10:40,000
+Iya
+
+99
+00:10:46,000 --> 00:10:47,000
+Iya, trus di
+
+100
+00:10:48,000 --> 00:10:52,000
+halaman favorite list juga ada bisa menghapus kata
+
+101
+00:10:53,000 --> 00:10:56,000
+Disitu ada kaya icon silang gitu
+
+102
+00:10:57,000 --> 00:10:58,000
+Oke
+
+103
+00:10:58,000 --> 00:11:00,000
+Iya, boleh dicoba juga
+
+104
+00:11:01,000 --> 00:11:02,000
+Udah
+
+105
+00:11:04,000 --> 00:11:10,000
+Kalau gitu sampai sini ada kendala mungkin dalam menambah atau menghapusnya?
+
+106
+00:11:11,000 --> 00:11:13,000
+Belum ada, nggak ada kendala
+
+107
+00:11:14,000 --> 00:11:19,000
+Untuk informasinya, sudah sesuai dengan kebutuhan belum?
+
+108
+00:11:19,000 --> 00:11:20,000
+Sudah
+
+109
+00:11:21,000 --> 00:11:23,000
+Atau ada yang mau ditambahkan mungkin?
+
+110
+00:11:24,000 --> 00:11:25,000
+Belum ada sih
+
+111
+00:11:25,000 --> 00:11:29,000
+Sejauh ini masih udah sesuai sama kebutuhan
+
+112
+00:11:29,000 --> 00:11:30,000
+Oke
+
+113
+00:11:31,000 --> 00:11:33,000
+Kalau gitu kita lanjut lagi
+
+114
+00:11:34,000 --> 00:11:37,000
+Boleh kembali sampai ke halaman home Kak
+
+115
+00:11:38,000 --> 00:11:39,000
+Oke
+
+116
+00:11:45,000 --> 00:11:46,000
+Sudah?
+
+117
+00:11:46,000 --> 00:11:47,000
+Sudah
+
+118
+00:11:49,000 --> 00:11:53,000
+Sekarang kita mau coba halaman random
+
+119
+00:11:54,000 --> 00:11:57,000
+Boleh Kakaknya klik aja tombol randomnya
+
+120
+00:11:58,000 --> 00:11:59,000
+Oke
+
+121
+00:11:59,000 --> 00:12:00,000
+Udah
+
+122
+00:12:01,000 --> 00:12:03,000
+Iya, nah terus disitu ada tombol random
+
+123
+00:12:03,000 --> 00:12:05,000
+Boleh dicobain
+
+124
+00:12:06,000 --> 00:12:07,000
+Udah
+
+125
+00:12:07,000 --> 00:12:11,000
+Udah ganti atau masih sama kata-katanya?
+
+126
+00:12:12,000 --> 00:12:13,000
+Udah ganti
+
+127
+00:12:14,000 --> 00:12:16,000
+Nah, terus abis itu ada tombol 
+
+128
+00:12:17,000 --> 00:12:18,000
+find meaning dibawahnya, ya?
+
+129
+00:12:19,000 --> 00:12:20,000
+Iya
+
+130
+00:12:21,000 --> 00:12:22,000
+Boleh dicoba
+
+131
+00:12:23,000 --> 00:12:24,000
+Oh
+
+132
+00:12:29,000 --> 00:12:30,000
+Gimana?
+
+133
+00:12:31,000 --> 00:12:34,000
+Gaada, nggak keluar informasinya
+
+134
+00:12:34,000 --> 00:12:37,000
+Kalau gitu coba kembali lagi
+
+135
+00:12:38,000 --> 00:12:40,000
+Dirandom lagi mungkin
+
+136
+00:12:40,000 --> 00:12:41,000
+Oke, sebentar
+
+137
+00:12:42,000 --> 00:12:44,000
+Hp saya nge-hang
+
+138
+00:13:26,000 --> 00:13:27,000
+Udah, udah bisa
+
+139
+00:13:28,000 --> 00:13:30,000
+Udah ada yang ketemu ya?
+
+140
+00:13:31,000 --> 00:13:32,000
+Udah
+
+142
+00:13:32,000 --> 00:13:33,000
+Oke
+
+143
+00:13:36,000 --> 00:13:40,000
+Kalau gitu sampai sini ada kendala dalam pemakaian Kak?
+
+144
+00:13:41,000 --> 00:13:44,000
+Tadi sih sempet kaya nge-hang gitu
+
+145
+00:13:44,000 --> 00:13:46,000
+Kaya nge-freeze gitu aplikasinya
+
+146
+00:13:46,000 --> 00:13:49,000
+Tadi di-close dulu terus masuk lagi
+
+147
+00:13:50,000 --> 00:13:51,000
+Itu
+
+148
+00:13:52,000 --> 00:13:55,000
+Sebenernya itu emang dari aplikasinya juga sih Kak, karena
+
+149
+00:13:56,000 --> 00:14:02,000
+Kadang kalau di-random itu ada kata-kata yang dia mungkin nggak ada di kamusnya
+
+150
+00:14:03,000 --> 00:14:09,000
+Jadinya, iya, dia gaketemu kata-katanya itu artinya
+
+151
+00:14:11,000 --> 00:14:12,000
+Oke
+
+152
+00:14:13,000 --> 00:14:14,000
+Oke
+
+153
+00:14:14,000 --> 00:14:15,000
+Nah, kalau gitu
+
+154
+00:14:15,000 --> 00:14:18,000
+Untuk informasinya, sudah sesuai kebutuhan kah?
+
+155
+00:14:18,000 --> 00:14:19,000
+Udah
+
+156
+00:14:20,000 --> 00:14:21,000
+Oke
+
+157
+00:14:23,000 --> 00:14:26,000
+Kalau gitu, untuk
+
+158
+00:14:27,000 --> 00:14:30,000
+Sesi testingnya segitu aja sih Kak
+
+159
+00:14:34,000 --> 00:14:36,000
+Nah, selanjutnya aku mau nanya
+
+160
+00:14:37,000 --> 00:14:38,000
+Secara keseluruhan, 
+
+161
+00:14:38,000 --> 00:14:42,000
+Apakah ada feedback/masukan untuk aplikasi ini supaya
+
+162
+00:14:42,000 --> 00:14:44,000
+bisa dikembangkan lagi ke depannya mungkin?
+
+163
+00:14:49,000 --> 00:14:51,000
+Mungkin di yang
+
+164
+00:14:52,000 --> 00:14:54,000
+di random ini kan ada dadunya ya
+
+165
+00:14:54,000 --> 00:14:55,000
+Kenapa?
+
+166
+00:14:56,000 --> 00:14:58,000
+Ada gambar dadunya
+
+167
+00:14:58,000 --> 00:14:59,000
+Oh iya
+
+168
+00:15:00,000 --> 00:15:02,000
+Itu mungkin bisa digerakin
+
+169
+00:15:02,000 --> 00:15:04,000
+Jadi, kalau lagi loading 
+
+170
+00:15:04,000 --> 00:15:06,000
+Itu kaya lagi
+
+171
+00:15:06,000 --> 00:15:09,000
+lagi nunggu katanya keluar aja gitu
+
+172
+00:15:11,000 --> 00:15:12,000
+Oke
+
+173
+00:15:14,000 --> 00:15:15,000
+Ada lagi mungkin?
+
+174
+00:15:15,000 --> 00:15:17,000
+Sama yang di favorite
+
+175
+00:15:18,000 --> 00:15:21,000
+Kalau misalkan kita lagi nyari kata trus mau masukin ke favorite
+
+176
+00:15:21,000 --> 00:15:25,000
+Itu mungkin lovenya jadi kaya ada warnanya gitu kali ya, jadi
+
+177
+00:15:25,000 --> 00:15:30,000
+Ini tuh kata yang udah kita masukkin ke favorite list gitu
+
+178
+00:15:30,000 --> 00:15:32,000
+Iya
+
+179
+00:15:34,000 --> 00:15:35,000
+Ada lagi Kak?
+
+180
+00:15:36,000 --> 00:15:39,000
+Udah sih, paling itu aja
+
+181
+00:15:41,000 --> 00:15:42,000
+Oke
+
+182
+00:15:42,000 --> 00:15:43,000
+Kalau gitu
+
+183
+00:15:45,000 --> 00:15:47,000
+Udah sih Kak, sampai sini aja
+
+184
+00:15:47,000 --> 00:15:49,000
+sesi user testing hari ini
+
+185
+00:15:49,000 --> 00:15:50,000
+Oke
+
+186
+00:15:51,000 --> 00:15:54,000
+Iya, sebelumnya saya mau mengucapkan terima kasih
+
+187
+00:15:56,000 --> 00:16:01,000
+Karena udah bersedia menjadi user di testing ini
+
+188
+00:16:02,000 --> 00:16:05,000
+dan sudah bersedia meluangkan waktunya
+
+189
+00:16:06,000 --> 00:16:08,000
+Sama-sama
+
+190
+00:16:09,000 --> 00:16:11,000
+Sekian dari saya
+
+191
+00:16:12,000 --> 00:16:14,000
+Wassalamualaikum Warahmatullahi Wabarakatuh
+
+192
+00:16:15,000 --> 00:16:18,000
+Waalaikumsalam Warahmatullahi Wabarakatuh
+
+
+
+
+
+
+
+
+
